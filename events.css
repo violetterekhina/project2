@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+
+
+body {
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 100%;
+    background-color: #175084;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+/* link styles */
+a:link {color: white;}
+a:visited {color: #D1FF73;}
+a:focus, a:hover, a:active {color: #BBDAF2;}
+
+
+/* header styles */
+header {
+    color: #175084; 
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    background-color: #9bde43;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+nav a {
+    padding-right: 120px;
+    padding-left: 120px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.events {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #175084;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-top: 35%;
+    margin-left: 28.5%;
+}
+
+section {
+    overflow: hidden;
+    width: 100%;
+}
+
+.row1, left {
+    background-color: #175084;
+    height: 668px;
+}
+
+.row2, right {
+    background-color: #d4effc;
+    width: 100%;
+}
+
+.row3, left {
+    height: 645px;
+}
+
+.left {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+    width: 50%;
+}
+.row2 {
+    float: left;
+    width: 100%;
+}
+
+.right {
+   width: 50%;
+   color: #175084;
+   margin-top: 0;
+   margin-bottom: 0;
+   float: left;
+   height: ;
+   padding: 0;
+    
+}
+ /*text styles*/
+h1 {
+   font-family: 'Bookman Old Style', bold;
+   color: #175084;
+   font-size: 40px;
+   margin-top: 6.2em;
+   margin-bottom: 0em;
+   letter-spacing: 0.01em;
+   margin-left: 25%;
+   width: 600px;
+}
+.green {
+    color: #D1FF73;
+    letter-spacing: .04em;
+    margin-bottom: .4em;
+    width: 380px;
+    line-height: 100%;
+}
+
+.start {
+    color: #D1FF73;
+    letter-spacing: .04em;
+    margin-bottom: .4em;
+    margin-top: 3em;
+    width: 380px;
+    line-height: 100%;
+}
+
+h2 {
+   font-family: 'Montserrat', bold; 
+   text-transform: none;
+   letter-spacing: .1em;
+   color: #175084; 
+   font-size: 22.5px;
+   width: 100%;
+   margin-left: 4.3em;
+   float: center;
+   margin-top: 3.1em;
+   margin-bottom: 3.1em;
+}
+p{
+   font-size: .9em;
+   float: left;
+   margin-left: 25%;
+   width: 400px;
+   color: #175084;
+   line-height: 160%;
+}
+
+p1{
+   font-size: .9em;
+   float: left;
+   padding: 2em;
+   margin-left: 25em;
+   margin-top: 0.25em;
+}
+
+p2{
+   color: #D1FF73;
+   font-size: .9em;
+   float: left;
+   margin-left: 25%;
+   width: 400px;
+   line-height: 160%;
+   margin-bottom: 3em;
+   margin-right: 2em;
+}
+
+
+button {
+   font-family: 'Montserrat';
+   font-size: 15px;
+   font-weight: 700;
+   letter-spacing: .05em;
+   color: #D1FF73;
+   background-color: #175084;
+   padding: 1.5em;
+   border: 0;
+   border-radius: 1.25em;
+   margin-right: 0;
+   margin-top: 1.6em;
+   margin-left: 25%;
+}
+
+button1 {
+   font-family: 'Montserrat';
+   font-size: 15px;
+   font-weight: 700;
+   letter-spacing: .05em;
+   color: #175084;
+   background-color: #D1FF73;
+   padding: 1.5em;
+   border: 0;
+   border-radius: 1.25em;
+   margin-top: 1em;
+   margin-left: 25%;
+}
+.questions {
+   margin-left: 0.75em;
+    
+}
+.sidebutton {
+   margin-bottom: 2em;
+   margin-left: 0.75em;
+}
+
+.experience {
+    margin-bottom: 3.5em;
+}
+
+footer {
+   text-align: center;
+   width: 100%;
+   color: #175084;
+   background-color: #D1FF73;
+   text-align: center;
+   font-size: .8em;
+   padding-right:
+   padding-left: 50px;
+   margin: 0;
+   overflow: hidden;
+   height: 5.5em;
+}
+.smalllogo{
+   width: 80px;
+   margin-top: 0;
+   margin-left: 2.75em;
+   padding-top: 1.2em;
+   float: left;
+   margin-right: 14em;
+}
+
+.arrows {
+    width: 2em;
+    margin-right: 3em;
+    margin-top: 37em;
+    float: right;
+    
+}
+
+
+.lady {
+    height: 668px;
+}
+.oldman {
+    height: 450px;
+    margin-top: 6em;
+    margin-bottom: 0;
+    margin-left: 6em;
+    border: 1em;
+    border-color: #175084;
+}
+.workshop {
+    height: 645px;
+}
